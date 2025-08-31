@@ -1,7 +1,5 @@
 # 1D Three-Mass / Two-Spring Simulation (Verlet & Time-Evolution)
 
-_Bilingual README • Türkçe aşağıda_
-
 This repository contains a Python simulation of three 1D masses connected in series by two springs with elastic collisions between the masses. It offers two numerical schemes:
 
 - **Verlet integration** (Velocity-Verlet)
