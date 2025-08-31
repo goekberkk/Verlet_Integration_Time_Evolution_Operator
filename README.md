@@ -60,13 +60,6 @@ rnd.seed(42); np.random.seed(42)
 - Contact checks use `x_left + D_left/2` vs. `x_right - D_right/2`.
 - On contact, post-impact velocities are computed by elastic 1D formulas and positions are corrected to remove overlap.
 
-### Time-Evolution Operator
-
-- Builds state matrix `A` for the linear spring–mass system.
-- Advances with `U = expm(A * dt)`.
-- Applies collision handling in physical coordinates.
-- Re-maps back to the offset state used in `A`.
-
 ---
 
 ## 🎞️ Animation
